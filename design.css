@@ -1,0 +1,84 @@
+body{
+    background-color: #1d1f20;
+}
+
+h1{
+    color: white;
+}
+
+
+#topBar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:60px;
+    background-color: #1d1f20;
+    margin-bottom: 100px;
+    
+}
+
+#mainContainer{
+    border: 1px solid  white;
+    margin: auto;
+    margin-top: 170px;
+    width: 530px;
+    height: 580px;
+    position: relative;
+}
+
+ #topDisplay{
+    display: flex;
+    width: 530px;
+    height: 15%;
+    border-radius: 0%;
+    align-items: center;
+    justify-content: right;
+    background-color: #292D30;
+ }
+
+#keyboard{
+    display: grid;
+    grid-template-columns: repeat(4,132.5px);
+    grid-template-rows: repeat(5, 98.7px);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.button{
+    border: 0.5px solid white;
+    background-color: #292D30;
+    color: white;
+
+}
+
+#ce{
+    width: 265px;
+}
+
+#del{
+    width: 132.5px;
+    grid-column-start: 3;
+}
+
+#point{
+    grid-column-start: 3;
+}
+
+#equal{
+    height: 98.7px;
+
+}
+
+#zero{
+    width: 265px;
+}
